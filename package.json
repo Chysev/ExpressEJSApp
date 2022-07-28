@@ -1,5 +1,5 @@
 {
-  "name": "express-ejs-app",
+  "name": "create-express-ejs-app",
   "version": "1.0.0",
   "description": "Express Ejs App by Chysev",
   "bin": "./bin/cli.js",
