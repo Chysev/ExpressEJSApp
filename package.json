@@ -1,7 +1,8 @@
 {
-  "name": "express-ejs-app",
+  "name": "@express-ejs-app",
   "version": "1.0.0",
   "description": "Express Ejs App by Chysev",
+  "bin": "./bin/cli.js",
   "type": "module",
   "main": "index.js",
   "scripts": {
