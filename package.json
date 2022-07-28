@@ -1,9 +1,8 @@
 {
-  "name": "create-express-ejs-app",
+  "name": "create-ejs-app",
   "version": "1.0.0",
   "description": "Express Ejs App by Chysev",
   "bin": "./bin/cli.js",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "build": "npm install",

@@ -1,16 +1,16 @@
-import expressLayouts from "express-ejs-layouts";
-import express from "express";
-import dotenv from "dotenv";
-import path from "path";
+const expressLayouts = require("express-ejs-layouts");
+const express = require("express");
+const dotenv = require("dotenv");
+const path = require("path");
 const app = express();
 
 // DOTENV CONFIG
-dotenv.config({ path: path.join(".env") });
+require(dotenv).config;
 
 // LiveReload For Auto Refresh || Listening in public folder only
-import livereload from "livereload";
-import connectLiveReload from "connect-livereload";
-const Public = path.dirname("Public");
+const livereload = require("livereload");
+const connectLiveReload = "connect-livereload";
+const Public = path.join("Public");
 const liveServer = livereload.createServer();
 liveServer.watch(Public);
 app.use(connectLiveReload());
