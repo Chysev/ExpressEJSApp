@@ -25,6 +25,8 @@ app.use(expressLayouts);
 app.use(express.static("global"));
 app.use(express.static("public"));
 app.use(express.static("public/css"));
+app.use(express.static("public/mediaQueries"));
+app.use(express.static("public/css/compontents-css"));
 app.use(express.static("public/layouts"));
 app.use(express.static("public/assets"));
 app.use(express.static("public/assets/icons"));
