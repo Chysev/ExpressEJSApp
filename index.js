@@ -22,6 +22,7 @@ app.set("layout", "App/App.ejs");
 app.use(expressLayouts);
 
 // STATIC FILES
+app.use(express.static("aos"));
 app.use(express.static("global"));
 app.use(express.static("public"));
 app.use(express.static("public/css"));
